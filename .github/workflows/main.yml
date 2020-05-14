@@ -26,7 +26,7 @@ jobs:
         id: deploy
         uses: mobiledgex/deploy-app-action@v1.0-rc4
         with:
-          setup: stage
+          setup: main
           username: ${{ secrets.MOBILEDGEX_USERNAME }}
           password: ${{ secrets.MOBILEDGEX_PASSWORD }}
 
