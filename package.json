@@ -1,0 +1,22 @@
+{
+  "name": "hello-edge",
+  "version": "1.1.0",
+  "description": "A Hello World HTTP server",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qdzlug/hello-edge/"
+  },
+  "keywords": [
+    "node",
+    "docker",
+    "dockerfile"
+  ],
+  "author": "qdzlug@gmail.com",
+  "license": "Self",
+  "devDependencies": { "test": ">=0.6.0" }
+}
