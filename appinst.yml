@@ -1,0 +1,19 @@
+- appinst:
+    key:
+      cluster_inst_key:
+        cluster_key:
+          name: action-test-cluster
+        cloudlet_key:
+          name: munich-main
+          organization: TDG
+        organization: demoorg
+
+- appinst:
+    key:
+      cluster_inst_key:
+        cluster_key:
+          name: action-test-cluster
+        cloudlet_key:
+          name: muich-main
+          organization: TDG
+        organization: demoorg

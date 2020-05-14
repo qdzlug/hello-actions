@@ -1,0 +1,11 @@
+region: EU
+app: 
+  key: 
+    name: hello-actions
+    version: "1.0"
+    organization: demoorg
+  image_path: docker.mobiledgex.net/demoorg/images/hello-actions
+  image_type: 1
+  default_flavor: 
+    name: m4.small
+  access_ports: "tcp:8000"
